@@ -1,0 +1,15 @@
+#g-themedispatcher button {
+  margin-bottom: .5em;
+}
+
+#g-themedispatcher ul ul li {
+  padding-left: 1.2em;
+}
+
+#g-themedispatcher-uas li .ui-icon {
+  margin-top: .4em;
+}
+
+#g-themedispatcher-admin-form .textbox  {
+  width: 400px;
+}

@@ -1,0 +1,7 @@
+name = "Theme dispatcher"
+description = "Select theme based on user-agent"
+version = 5 
+author_name = "calleh" 
+author_url  = 
+info_url    = "http://codex.gallery2.org/Gallery3:Modules:themedispatcher"
+discuss_url = "http://gallery.menalto.com/node/101768"

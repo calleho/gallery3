@@ -1,0 +1,10 @@
+name = "Gallery iMobile"
+description = "iPhone & iPad theme. Requires themedispatcher module to activate the theme in case the gallery is accessed by an iphone or ipad."
+version = 2.4
+author = "calleh"
+site = 1
+admin = 0
+author_name = "calleh"
+author_url = ""
+info_url = "http://codex.gallery2.org/Gallery3:Themes:iMobile"
+discuss_url = "http://gallery.menalto.com/node/101768"
