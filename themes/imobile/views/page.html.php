@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=2.0; user-scalable=1;"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1"/>
     <link rel="apple-touch-icon-precomposed"
           href="<?= url::file(module::get_var("gallery", "apple_touch_icon_url")) ?>" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -30,9 +30,9 @@
     <?= $theme->script("staystandalone.min.js") ?>
     <?= $theme->head() ?>
     <?= $theme->css("imobile.css") ?>
-    <?= $theme->css("photoswipe-3.0.4.css") ?>
+    <?= $theme->css("photoswipe-3.0.5.css") ?>
     <?= $theme->script("klass.min.js") ?>
-    <?= $theme->script("code.photoswipe-3.0.4.min.js") ?>
+    <?= $theme->script("code.photoswipe-3.0.5.min.js") ?>
     <?= $theme->script("imobile-1.0.1.min.js") ?>
   </head>
     <? if($page_subtype == "login"): ?>
