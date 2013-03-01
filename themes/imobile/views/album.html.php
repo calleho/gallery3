@@ -42,7 +42,7 @@
 	var MAX_LOADING_THUMBNAILS = 16;
    <? endif ?>
    var BASE_URL = '<?= $theme->url("../imobile/images/") ?>';
-   var MAX_CONCURENT_LOADING_THUMBNAILS = 4;
+   var MAX_CONCURRENT_LOADING_THUMBNAILS = 4;
 
    var thumbmgr, slidemgr;
 
@@ -66,6 +66,7 @@
 
       // prepare slideshow
       var options = {
+         //imageScaleMethod: "fitNoUpscale",
          getImageSource: function(obj){
             return obj.url;
          },

@@ -165,7 +165,7 @@ function JphThumbs_Manager( app)
 				new JphThumbs_Item( this.mrApp, this.mrApp.mrDao.maImages[i]);
 	} 	
 	
-	this.mrPreloader =	new JphUtil_Preloader( MAX_CONCURENT_LOADING_THUMBNAILS);
+	this.mrPreloader =	new JphUtil_Preloader( MAX_CONCURRENT_LOADING_THUMBNAILS);
  }
  
  JphThumbs_Manager.prototype.Init			=	function()
