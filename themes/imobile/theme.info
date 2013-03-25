@@ -1,6 +1,6 @@
 name = "Gallery iMobile"
 description = "iPhone & iPad theme. Requires themedispatcher module to activate the theme in case the gallery is accessed by an iphone or ipad."
-version = 2.6
+version = 2.7
 author = "calleh"
 site = 1
 admin = 0
